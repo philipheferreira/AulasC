@@ -5,7 +5,7 @@
 main(){ 
 setlocale(LC_ALL, "");
 
-int x = 10;
+int x = 10; 
 int y;
 printf("O valor de x é igual a %i\n", x); // o printf é a sua comunicação output, os valores são printados na tela para serem visualizados por ele. dentro das aspas é que ficam as informações
 // para chamar uma variavel para ser mostrada na tela tem que chamar ela nas aspas pelo tipo de variavel, para definir o local que ela vai aparecer na sentença. 
