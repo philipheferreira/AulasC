@@ -2,6 +2,13 @@
 #include<stdlib.h>
 #include<locale.h>
 
+/*		##################### Aula 5 - if complexo #########################
+	
+	Em praticamente todas as situações serão com o if você usara mais de uma situação ou condições com o if condicional, para que não tenha um problema de interferencia com as condições com 
+	relação a cada if devesse colocar um else separando cada if para que seja identificado onde começa e onde termina cada um deles, pois provavelmente dara erro se não tiver, como nas 
+	situações a baixo 
+
+*/
 
 main(){ 
 
