@@ -2,6 +2,14 @@
 #include<stdlib.h>
 #include<locale.h>
 
+/* 
+	O objetivo da endentação é que seja uma organização pratica e rapida de compreenção. No caso o programador visualize e compreenda rapidamente o que está acontecendo e com
+	que intuito. Entrentanto algumas linguagens usam isso como parametro para identificar qual comando segue ou está dentro de qual estrutura de comando. A linguagem C consegue 
+	realizar esse tipo de comando para alguns simples e que funcionam sem utilizar muitas linhas como o exemplo a baixo. Lembrando que C é uma linguagem que funciona com o uso 
+	de chaves para essa função, mas ainda sim é um recurso que pode ser usado como no exemplo a baixo com a estrutura de comando de escolha if.
+*/
+
+
 int main(){ 
 setlocale(LC_ALL, "");
 int x; 
