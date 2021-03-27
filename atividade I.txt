@@ -1,0 +1,12 @@
+ 
+								Atividade I
+Na primeira tarefa vocês montarão um codigo que faça o calculo de 4 areas. Sendo que as 4 areas a serem calculadas serão: um quadrado, retangulo,
+triangulo e circulo.
+as condições do codigo são: 
+1- Os valores das variaveis para o calculo da area quadrado e retangulo já devem ser pré definidas pelo programador;
+2- Os valores das variaveis para o calculo da area do circulo e retangulo devem ser colocados pelo usuario;
+3- As variaveis que irão receber o valor da area do circulo e retangulo devem ser do tipo float;
+4- As variaveis que terão seus valores definidas pelo usuario deveram ser do tipo int;
+
+
+Entregue na proxima aula 
