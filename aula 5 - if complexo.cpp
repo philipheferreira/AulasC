@@ -10,6 +10,19 @@
 
 */
 
+
+/* 
+
+	Dentro dos valores de parametrização podem ser utilizados simbolos para poder estabelecer com maior facilidade os parametros a serem seguidos, a baixo estão alguns deles: 
+	
+	> : esse é o simbolo maior que. ex: x > y (no caso significa que x é maior que y);
+	>=  : esse é o maior ou igual que. ex: x >= y (no caso significa que x é maior ou igual a y); 
+	< : esse é o menor que. ex: x < y (no caso significa que x é menor que y)
+	<= : esse é o menor ou igual que. ex: x <= y ( no caso x é menor ou igual a y);
+	== : esse é o simbulo de igual. ex: x == y (no caso x é igual a y);
+	!= : esse é o diferente que. ex: x != y (no caso x é diferente de y);
+
+*/
 main(){ 
 
 	setlocale(LC_ALL, "");
