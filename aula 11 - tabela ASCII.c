@@ -2,7 +2,7 @@
 #include<locale.h>
 #include<stdlib.h>
 /*
-codigo para mostrar a logica de funcionamento da tabela ASCII e como funciona a padronizaÁ„o e a logica de convers„o de numeros de cada decimal para os conhecidos char;
+codigo para mostrar a logica de funcionamento da tabela ASCII e como funciona a padroniza√ß√£o e a logica de convers√£o de numeros de cada decimal para os conhecidos char;
 */
 int main(){ 
 //https://web.fe.up.pt/~ee96100/projecto/Tabela%20ascii.htm
