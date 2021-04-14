@@ -14,7 +14,7 @@ int resultSoma[10], resultSub[10], resultMult[10];
 
 
 for(i = 0; i < 10; i++){ 
-	printf("Digite um valor para a posição %i: ", i);
+	printf("Digite um valor para a posiÃ§Ã£o %i: ", i);
 	scanf("%i", &valor[i]);
 }
 
@@ -42,7 +42,7 @@ for(i = 0; i < 10; i++){
 	result[i] = valor[i] - vetor[i];
 }
 
-printf("\n\nSubitração dos vetores: ");
+printf("\n\nSubitraÃ§Ã£o dos vetores: ");
 for(i = 0; i < 10; i++){ 
 	printf("\t%i", resultSub[i]);
 }
@@ -53,7 +53,7 @@ for(i = 0; i < 10; i++){
 	result[i] = valor[i] * vetor[i];
 }
 
-printf("\n\nMultiplicação dos vetores: ");
+printf("\n\nMultiplicaÃ§Ã£o dos vetores: ");
 for(i = 0; i < 10; i++){ 
 	printf("\t%i", resulMult[i]);
 }

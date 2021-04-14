@@ -15,7 +15,7 @@ main(){
 		switch(menu){ 
 			
 			
-			printf("Digite as opções:\n1.Ativar opções com if identado.\n2.Ativar repetição identada.\n3.Ativar opção de operador condicional");
+			printf("Digite as opÃ§Ãµes:\n1.Ativar opÃ§Ãµes com if identado.\n2.Ativar repetiÃ§Ã£o identada.\n3.Ativar opÃ§Ã£o de operador condicional");
 			scanf("%i", &menu);
 			
 			
@@ -37,7 +37,7 @@ main(){
 			
 			case 2:
 				
-				printf("Quantas repetições você quer para o repetidor for: ");
+				printf("Quantas repetiÃ§Ãµes vocÃª quer para o repetidor for: ");
 				scanf("%i", &n);
 				
 				for(number1 = 0; number1 < n; number1++) 
@@ -52,13 +52,13 @@ main(){
 				printf("Digite um valor para a segunda variavel: ");
 				scanf("%i", &number2);
 				
-				number1 > number2? printf("O primeiro valor é maior que o segundo") : printf("O segundo valor é maior que o primeiro");
+				number1 > number2? printf("O primeiro valor Ã© maior que o segundo") : printf("O segundo valor Ã© maior que o primeiro");
 				
 			break;
 			
 			default: 
 			
-				printf("Comando não reconhecido, por favor repita comando");
+				printf("Comando nÃ£o reconhecido, por favor repita comando");
 				
 				system("pause");
 			
