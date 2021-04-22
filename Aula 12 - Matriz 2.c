@@ -28,7 +28,7 @@ int main(){
 	
 	system("cls");
 	
-	printf("Esse s„o os valores das matrizes inseridas: \n");
+	printf("Esse s√£o os valores das matrizes inseridas: \n");
 	
 	printf("Primeira Matriz:\n");
 	for(m = 0; m < 3; m++){ 
@@ -47,9 +47,9 @@ int main(){
 	}
 	
 	
-	printf("OperaÁıes de soma e subtraÁ„o com as matrizes inseridas: \n");
+	printf("Opera√ß√µes de soma e subtra√ß√£o com as matrizes inseridas: \n");
 	
-	//OperaÁ„o soma de matrizes
+	//Opera√ß√£o soma de matrizes
 	
 	for(m = 0; m < 3; m++){ 
 		for(n = 0; n < 3; n++){ 
@@ -66,7 +66,7 @@ int main(){
 		printf("\n");
 	}
 	
-	//OperaÁ„o subtraÁ„o de matrizes
+	//Opera√ß√£o subtra√ß√£o de matrizes
 	
 	for(m = 0; m < 3; m++){ 
 		for(n = 0; n < 3; n++){ 
@@ -74,7 +74,7 @@ int main(){
 		}	
 	}
 	
-	printf("SubtraÁ„o da primeira com a segunda matriz:\n");
+	printf("Subtra√ß√£o da primeira com a segunda matriz:\n");
 	
 	for(m = 0; m < 3; m++){ 
 		for(n = 0; n < 3; n++){ 
