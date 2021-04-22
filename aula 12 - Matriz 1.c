@@ -25,7 +25,7 @@ for(m = 0; m < 3; m++){
 	printf("\n\n");
 }
 
-printf("\n\nOperações de matrizes:\n\n");
+printf("\n\nOperaÃ§Ãµes de matrizes:\n\n");
 
 for(m = 0; m < 3; m++){ 
 	for(n = 0; n < 3; n++){ 
@@ -48,7 +48,7 @@ for(m = 0; m < 3; m++){
 	}
 }
 
-printf("Subtração das Matrizes: \n");
+printf("SubtraÃ§Ã£o das Matrizes: \n");
 
 for(m = 0; m < 3; m++){ 
 	for(n = 0; n < 3; n++){ 
