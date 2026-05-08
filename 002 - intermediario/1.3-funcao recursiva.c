@@ -2,17 +2,17 @@
 #include<stdlib.h>
 #include<locale.h>
 
-	int funcao( int num){
-  if (num == 0) {
-    return 1;
-  }
-  else {
-    return num * funcao(num -1);
-  }
+int funcao( int num){
+	if (num == 0) {
+	  return 1;
+	}
+	else {
+	  return num * funcao(num -1);
+	}
 }
 
 
-	int main(){ 
+int main(){ 
 	setlocale(LC_ALL, "");
 	
 	int num;
@@ -22,4 +22,4 @@
 	
 	
 	system("pause");
-	}
+}

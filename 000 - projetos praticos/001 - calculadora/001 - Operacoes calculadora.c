@@ -5,7 +5,7 @@
 main(){
 	setlocale(LC_ALL, "");
 	
-	int numero1, numero2, menu;
+	int numero1, numero2;
 	int soma, subtracao, multiplicacao;
 	float divisao;
 	
