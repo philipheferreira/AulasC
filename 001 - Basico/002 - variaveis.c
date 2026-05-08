@@ -4,7 +4,7 @@
 
  int Gvariavel; // É uma variavel global com o objetivo de ser chamada no codigo por qualquer função declarada no codigo. A variavel global é um recurso bastante util, entretanto pode pegar bastante recurso computacional, pois dependendo de como for utilizada aloca bastante uso de memoria
 
-main(){ 
+int main(){ 
 setlocale(LC_ALL, "");
 
 /*        ###################AVISO########################################
@@ -76,6 +76,8 @@ printf("a variavel do tipo float com o nome numero5 salvou um valor que é %f, q
 
 printf("a variavel do tipo character com o nome letra salvou um valor que é %c, que está salva na memoria requisitada pelo\n sistema. O seu endereçamento é %i e ela aloca %i bytes\n\n",letra, &letra, sizeof(letra));
 // para aparecer o valor armazenado na variavel do tipo char no printf devesse colocar %c nas aspas
+
+
 
 system("pause");
 }
