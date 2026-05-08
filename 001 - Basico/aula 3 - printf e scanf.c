@@ -24,16 +24,16 @@ setlocale(LC_ALL, "");
 
 int x = 10; 
 int y;
-printf("O valor de x é igual a %i\n", x); // o printf é a sua comunicação output, os valores são printados na tela para serem visualizados por ele. dentro das aspas é que ficam as informações
+printf("O valor de x � igual a %i\n", x); // o printf é a sua comunicação output, os valores são printados na tela para serem visualizados por ele. dentro das aspas é que ficam as informações
 // para chamar uma variavel para ser mostrada na tela tem que chamar ela nas aspas pelo tipo de variavel, para definir o local que ela vai aparecer na sentença. 
 // como a variavel é do tipo inteiro é usado %i para chama-la. No lado de fora das aspas colocasse uma virgula e coloca o nome da variavel que quer chamar, assim ela vai saber qual das 
 //variaveis do tipo inteiro sera chamada
 
-printf("Dê um valor para y: ");
+printf("D� um valor para y: ");
 scanf("%i", &y); // o tipo de variavel é inteira então foi declarado que recebera um valor do tipo inteiro, o endereçamento foi associado a y, então o valor será armazenado 
 //diretamente a variavel y
 
-printf("\nO valor que vocÊ deu para y é %i\n", y);
+printf("\nO valor que voc� deu para y � %i\n", y);
 
 system("pause");
 }

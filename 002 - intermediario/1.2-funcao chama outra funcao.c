@@ -9,9 +9,9 @@ int decaimento(int num1){
 		return num1;
 	}
 	
-	int funcao(int num1, int num2){ 
-		
-		int result;
+int funcao(int num1, int num2){ 
+	
+	int result;
 	
 	if( num1 == 20){ 
 		num1 = decaimento(num1);
@@ -21,10 +21,11 @@ int decaimento(int num1){
 		result = num1 + num2;
 	}
 	return result;
-	}
+}
 	
 
-	int main(){ 
+int main(){ 
+	
 	setlocale(LC_ALL, "");
 	int x = 20, y = 10, resultado;
 		
@@ -35,4 +36,4 @@ int decaimento(int num1){
 	printf("O valor das variaveis pre definidas é %i", resultado);
 	
 	system("pause");
-	}
+}
