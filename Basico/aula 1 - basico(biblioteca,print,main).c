@@ -9,8 +9,8 @@ setlocale(LC_ALL, ""); // Comando para adicionar a acentuação no codigo atrave
 printf("Ola mundo"); // printf é um comando classificado output, ou seja, é para o usuario visualizar. É a sua resposta na tela. A sua comunição com o mundo exterior
 printf("\t\tOlaaaaaaaaaaaaaaaaaaaaaaaa"); // No final de cada comando em C devesse colocar ponto e virgula, para o computador, através do compilador, assimilar que aqui é o final da linha e 
 // o final desse comando, se não o codigo da erro 
-printf("\n\n E aiiiiiiiiiiii????") // existem comandos que podesse usar para controlar o espaçamento plotado na nela com relação ao texto
-printf("\tAgora eu tenho acento. \nÉééééééééééééé")// O comando \t da um tab na linha, e o comando \n da um espaço para baixo
+printf("\n\n E aiiiiiiiiiiii????"); // existem comandos que podesse usar para controlar o espaçamento plotado na nela com relação ao texto
+printf("\tAgora eu tenho acento. \nÉééééééééééééé");// O comando \t da um tab na linha, e o comando \n da um espaço para baixo
 
 system("pause"); // Esse é um comando oldSchool. Em versões anteriores a tela não pausava, por isso usavamos esse comando para pausa-la. Coloco a nivel de informação 
 }
