@@ -2,6 +2,20 @@
 #include<stdlib.h>
 #include<locale.h>
 
+	int funcaoReceberValorPrimeiroNumeroOperacoes(){
+		int numero1;
+		printf("Digite um valor para o numero 1: ");
+		scanf("%i", &numero1);
+		return numero1;
+	}
+	
+	int funcaoReceberValorSegundoNumeroOperacoes(){
+		int numero2;
+		printf("Digite um valor para o numero 2: ");
+		scanf("%i", &numero2);
+		return numero2;
+	}
+
 	int operacaoSoma (int numero1, int numero2){
 		int resultado;
 		
@@ -31,6 +45,8 @@ int main(){
 	int somaResultado, subtracaoResultado, multiplicacaoResultado;
 	float divisaoResultado;
 	
+	int funcaoReceberValorPrimeiroNumeroOperacoes();
+	int funcaoReceberValorSegundoNumeroOperacoes();
 	int soma(int numero1, int numero2);
 	int operacaoSubtracao (int numero1, int numero2);
 	int operacaoMultiplicacao (int numero1, int numero2);
@@ -43,11 +59,9 @@ int main(){
 	    scanf("%i", &menu);
 		
 		if(menu == 1){ 
-			printf("Digite um valor para o numero 1:");
-			scanf("%i", &numero1);
+			numero1 = funcaoReceberValorPrimeiroNumeroOperacoes();
 			
-			printf("Digite um valor para o numero 2:");
-			scanf("%i", &numero2);
+			numero2 = funcaoReceberValorSegundoNumeroOperacoes();
 			
 			somaResultado = operacaoSoma(numero1, numero2);
 			
@@ -55,11 +69,9 @@ int main(){
 		}else 
 		if(menu == 2){
 			
-			printf("Digite um valor para o numero 1:");
-			scanf("%i", &numero1);
+			numero1 = funcaoReceberValorPrimeiroNumeroOperacoes();
 			
-			printf("Digite um valor para o numero 2:");
-			scanf("%i", &numero2);
+			numero2 = funcaoReceberValorSegundoNumeroOperacoes();
 			
 			subtracaoResultado = operacaoSubtracao(numero1, numero2);
 		
@@ -68,11 +80,9 @@ int main(){
 		} else 
 		if(menu == 3){
 			
-			printf("Digite um valor para o numero 1:");
-			scanf("%i", &numero1);
+			numero1 = funcaoReceberValorPrimeiroNumeroOperacoes();
 			
-			printf("Digite um valor para o numero 2:");
-			scanf("%i", &numero2);
+			numero2 = funcaoReceberValorSegundoNumeroOperacoes();
 			
 			multiplicacaoResultado = operacaoMultiplicacao(numero1, numero2);
 		
@@ -81,11 +91,9 @@ int main(){
 		}else 
 		if(menu == 4){
 			
-			printf("Digite um valor para o numero 1:");
-			scanf("%i", &numero1);
+			numero1 = funcaoReceberValorPrimeiroNumeroOperacoes();
 			
-			printf("Digite um valor para o numero 2:");
-			scanf("%i", &numero2);
+			numero2 = funcaoReceberValorSegundoNumeroOperacoes();
 			
 			divisaoResultado = operacaoDivisao(numero1, numero2);
 		
