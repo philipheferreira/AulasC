@@ -2,7 +2,7 @@
 #include<stdlib.h>
 #include<locale.h>
 
-
+// realiza uma operacao mas necessita chamar outra funcao para realizar a operacao
 
 int decaimento(int num1){ 
 		num1 = num1 - 10;

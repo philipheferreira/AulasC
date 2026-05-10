@@ -2,6 +2,8 @@
 #include<stdlib.h>
 #include<locale.h>
 
+/* Uma funcao que chama ela mesma, geralmente porque tem 2 saidas de resolucaop diferentes para um mesmo problema com fim de gerar um resoltado */
+
 int funcao( int num){
 	if (num == 0) {
 	  return 1;
@@ -18,7 +20,7 @@ int main(){
 	int num;
     num = 3;
     
-    printf("\nfatR(%d) = %d", num, funcao(num));
+    printf("\nfatR(%d) = %d\n", num, funcao(num));
 	
 	
 	system("pause");
