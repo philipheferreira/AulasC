@@ -2,6 +2,11 @@
 #include<locale.h>
 #include<stdlib.h>
 	
+	/* Eu posso nao declarar minhas funcoes simplesmente fazendo elas antes do
+	main, mas por normas de programacao eu sempre declaro elas dentro da main
+	pra saber quais estou usando. Caso eu faca minhas funcoes depois da chamada
+	main ai vou ter que declarar, se nao meu codigo nao vai saber que ela existe
+	para ser chamada */
 	int soma(int num1, int num2){ 
 		int result;
 		
