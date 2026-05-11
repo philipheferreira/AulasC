@@ -6,7 +6,7 @@
 caso os elementos estejam desorganziados, ou seja, nao esteja em uma
 sequencia decrescente */
 
-void ordermCrescente(int vetor[], int n) {
+void ordemCrescente(int vetor[], int n) {
 	int i, j, temporaria;
 	
 	for(i = 0; i < n; i++) {
@@ -27,9 +27,9 @@ int main(){
 	
 	int vetor[10] = {6, 4, 1, 9, 8, 0, 5, 7, 3, 2};
 	int i;
-	void ordermCrescente(int vetor[], int n);
+	void ordemCrescente(int vetor[], int n);
 	
-	ordermCrescente(vetor, 10);
+	ordemCrescente(vetor, 10);
 	
 	for(i = 0; i < 10; ++i) {
 		printf("%i", vetor[i]);
