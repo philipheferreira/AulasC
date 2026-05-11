@@ -13,15 +13,14 @@ int main(){
     	int segundos;
 	};
     
-    struct horario teste[5];
+    struct horario teste[5] = {{10, 20, 30}, {40, 50, 60}, {70, 80, 90}, {100, 110, 120}, {130, 140, 150}};
     
-    teste[0].horas = 10;
-    teste[0].minutos = 20;
-    teste[0].segundo = 30;
     
-    printf()
+    int i;
+    for(i = 0; i < 5; ++i){ 
+		printf("%i:%i:%i\n", teste[i].horas, teste[i].minutos, teste[i].segundos);
+	}
     
-    printf("%i:%i:%i\n", proxima.horas, proxima.minutos, proxima.segundos);
     
     system("pause"); 
     return 0;

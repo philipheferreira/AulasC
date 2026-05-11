@@ -17,11 +17,16 @@ int main(){
     
     teste[0].horas = 10;
     teste[0].minutos = 20;
-    teste[0].segundo = 30;
+    teste[0].segundos = 30;
     
-    printf()
+    printf("%i:%i:%i\n", teste[0].horas, teste[0].minutos, teste[0].segundos);
     
-    printf("%i:%i:%i\n", proxima.horas, proxima.minutos, proxima.segundos);
+    teste[1].horas = 40;
+    teste[1].minutos = 50;
+    teste[1].segundos = 60;
+    
+    printf("%i:%i:%i\n", teste[1].horas, teste[1].minutos, teste[1].segundos);
+    
     
     system("pause"); 
     return 0;
