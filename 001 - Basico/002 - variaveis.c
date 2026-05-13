@@ -52,7 +52,6 @@ float numero5 = 10.20; // float é uma variavel inteira com ponto flutuante, voc
 char letra = 'C'; // char tem o objetivo de saltar letras. É bastante util para salvar informações especificas.
 char nome[20] = "Philiphe"; // o char pode ser usado para salvar uma palavra completa de uma forma um pouco não ortodoxa, mais a frente sera comentado mas se pode salvar char dessa forma. coloquei aqui a nivel de informação
 
-
 printf("a variavel do tipo inteira com o nome numero salvou um valor que é %i, que está salva na memoria requisitada pelo\n sistema. O seu endereçamento é %i e ela aloca %i bytes\n\n", numero, &numero, sizeof(numero));
 /* O codigo acima usa o recurso %i para chamar um valor inteiro qualquer no comando printf, entretanto depois das aspas separada por uma virgula é especificada qual valor inteiro é chamado
 assim podendo chamar a variavel nome do tipo inteiro no printf. O &numero mostra o endereçamento que a variavel foi salva, e o comando sizeof() mostra o tamanho que a variavel nome aloca, 
