@@ -14,8 +14,6 @@ int main(){
 	int x;
 	x = 10;
 	
-	int *ponteiro;
-	
 	printf("valor armazenado dentro da variavel: %i\n", x);
 	
 	printf("valor do endereço de memoria alocado para o armazenamento da variavel x: %i\n", &x);
