@@ -2,8 +2,9 @@
 #include<stdlib.h>
 #include<locale.h>
 
-/* A segunda forma de chamar ponteiros atribuindo valores esta sendo contextualizada
-a baixo */
+/* Tambem se torna possivel utilizar comandos matematicos com as operacoes
+de estrutura e ponteiro. Pegar os resoltados e somar, subtrair, multiplicar
+e dividir */
 
 int main(){ 
 	setlocale(LC_ALL, "");
@@ -24,6 +25,16 @@ int main(){
 	depois -> segundo = 60;
 	
 	printf("Hora da variavel ponteiro:\n %i:%i:%i\n\n", agora.hora, agora.minuto, agora.segundo);
+	
+	int somatorio = 100;
+	
+	struct horario antes;
+	
+	antes.hora = somatorio + depois -> segundo;
+	antes.minuto = agora.hora - depois -> minuto;
+	antes.segundo = depois -> minuto + depois -> segundo;
+	
+	printf("Hora da variavel ponteiro:\n %i:%i:%i\n\n", antes.hora, antes.minuto, antes.segundo);
 	
 	
 	system("pause");
