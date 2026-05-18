@@ -24,12 +24,13 @@ int main(){
 	hoje.pMinuto = &minuto;
 	hoje.pSegundo = &segundo;
 	
-	printf("");
-	printf("");
-	printf("");
+	printf("Hora - %i\n", *hoje.pHora);
+	printf("Minuto - %i\n", *hoje.pMinuto);
+	printf("Segundo - %i\n", *hoje.pSegundo);
 	
+	*hoje.pSegundo = 1000;
 	
-	printf("");
+	printf("Novo Segundo - %i\n", *hoje.pSegundo);
 	
 	
 	system("pause");
