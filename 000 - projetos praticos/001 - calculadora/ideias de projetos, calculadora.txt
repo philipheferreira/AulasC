@@ -1,0 +1,1 @@
+Ideia de projeto usando struct
