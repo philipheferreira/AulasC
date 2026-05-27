@@ -21,7 +21,9 @@ int main(){
 	
 	int x, y, z;
 	
-	fscanf(file, "%i %i %i", &x, &y, &z);
+	fscanf(file, "%i %i %i", &x, &y, &z); /* O scanf ira pegar qualquer dado e 
+	ler o que foi declarado nele e receber. De acordo com o que foi pre 
+	definido, ou seja inteiros. Caso nao sejam inteiros dara defeito */
 	
 	printf("%i %i %i\n\n", x, y, z);
 	
