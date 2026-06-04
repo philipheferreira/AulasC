@@ -1,0 +1,38 @@
+Para a logica de funcionamento de uma pilha basta lembrar a ideia de first in
+Last out. Seria como uma pilha de cartas. A carta no topo da pilha sempre sera a 
+primeira a sair. E a primeira carta colocada no topo da pilha sera a ultima carta a ser
+retirada
+
+
+Explicação Passo a Passo
+Aqui está o que cada parte do código faz:
+
+1. Estrutura struct
+Aqui criamos o "objeto" da pilha.
+
+int dados[MAX]: É o armário onde guardamos os pratos (números).
+int topo: É um ponteiro (índice) que diz em qual prateleira estamos. Começamos com -1 para dizer que ainda não usamos nenhuma prateleira.
+2. criarPilha
+Essa função é essencial. Se não chamarmos ela, o topo começa com "lixo de memória" e o código não funciona. Ela força o topo a ser -1.
+
+3. empilhar (Push)
+Esta é a lógica de adicionar:
+
+Verifica: A pilha já está no limite (MAX - 1)? Se sim, avisa e para.
+Sobe: p->topo++ (Aumenta o índice. Se era -1, vira 0. Se era 0, vira 1...).
+Guarda: p->dados[p->topo] = valor (Coloca o número na nova posição).
+4. desempilhar (Pop)
+Esta é a lógica de remover:
+
+Verifica: O topo é -1? Se sim, a pilha está vazia e não temos o que tirar.
+Pega: Guardamos o valor que está no topo numa variável temporária (para mostrar na tela ou usar depois).
+Desce: p->topo-- (Diminui o índice).
+Nota: Em C, não apagamos o número do array, apenas baixamos o ponteiro topo. Na próxima vez que empilharmos, esse número será sobrescrito.
+Resumo Visual da Execução
+Imagine MAX = 3.
+
+criarPilha: Pilha vazia [] (Topo: -1)
+empilhar(10): [10] (Topo: 0)
+empilhar(20): [10, 20] (Topo: 1)
+desempilhar(): Remove o 20. Pilha volta para [10] (Topo: 0).
+empilhar(50): [10, 50] (Topo: 1 - o 50 ocupou o lugar do 20).
