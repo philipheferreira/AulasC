@@ -8,6 +8,9 @@ Um vetor (array) para armazenar várias tarefas.
 Lógica dentro dos if para manipular esse vetor (adicionar, mostrar, editar, remover).
  */
 
+#define MAX_TAREFAS 100
+#define TAMANHO_DESCRICAO 100
+
 int main() {
     int menu;
 	
