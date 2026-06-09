@@ -1,0 +1,4 @@
+Esse capitulo serve para estudos pessoas alem do dito necessario.
+Irei focar inicialmente no estudo de funcionalidades dinamicas, que
+consiste em trabalhar com a logica dos modelos pilha, fila, lista e
+arvore
