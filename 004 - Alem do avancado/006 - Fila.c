@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include<locale.h>
 
 #define MAX 5
 
@@ -74,7 +75,7 @@ void esvaziarFila(struct fila *f){
 }
 
 int main() { 
-    
+    setlocale(LC_ALL, "portuguese");
     // Criação da variável 'f' do tipo struct fila
     struct fila f;
     

@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include<locale.h>
 
 #define MAX 5
 
@@ -62,7 +63,7 @@ void verTopo(struct base *p){
 }
 
 int main(){ 
-    
+    setlocale(LC_ALL, "portuguese");
     struct base Pilha; 
     
     inicializarPilha(&Pilha); 

@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+#include<locale.h>
 #define MAX 5
 
 typedef struct {
@@ -61,7 +61,7 @@ typedef struct {
 
 main(){
 	
-	
+	setlocale(LC_ALL, "portuguese");
 	//struct base Pilha; // cria a pilha usando o struct base
 	
 	Pilha p;

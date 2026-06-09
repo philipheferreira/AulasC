@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include<locale.h>
 
 #define MAX 5
 
@@ -61,7 +62,7 @@ void verTopo(){
 }
 
 int main(){ 
-    
+    setlocale(LC_ALL, "portuguese");
     // Não precisamos mais declarar "Pilha p" aqui, pois ela já existe globalmente.
     
     inicializarPilha(); // Chamada sem argumentos

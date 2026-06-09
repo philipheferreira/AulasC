@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include<locale.h>
 
 #define MAX 5
 
@@ -12,7 +13,7 @@ struct base {
 
 
 int main(){ 
-    
+    setlocale(LC_ALL, "portuguese");
     struct base Pilha; 
     
     void inicializarPilha(struct base *p);
