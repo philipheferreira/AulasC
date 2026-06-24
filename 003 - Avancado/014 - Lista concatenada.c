@@ -20,7 +20,7 @@ int main(){
 	m3.valor = 30;
 	
 	m1.proximo = &m2;
-	m2.proximo = &m3;
+	m2.proximo = &m3; /* */
 	m3.proximo = (struct lista *)0; /* O valor desse proximo sera igual a zero */
 	
 	while(gancho != (struct lista *)0){
