@@ -21,11 +21,13 @@ int main(){
 	
 	m1.proximo = &m2;
 	m2.proximo = &m3;
-	m3.proximo = (struct lista *)0;
+	m3.proximo = (struct lista *)0; /* O valor desse proximo sera igual a zero */
 	
-	while(gancho != (struct lsita *)0){
+	while(gancho != (struct lista *)0){
 		printf("%i\n", gancho->valor);
-		gancho = gancho -> proximo;
+		gancho = gancho -> proximo; /* o gancho atual recebera tudo que estiver
+		no endereco do proximo no atual, assim atualizando os novos valores 
+		dentro de valores e do proximo da lista atual */
 	}
 	
 	system("pause");
