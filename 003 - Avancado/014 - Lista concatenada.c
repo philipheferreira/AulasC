@@ -9,7 +9,10 @@ int main(){
 	
 	struct lista{
 		   int valor;
-		   struct lista *proximo;	
+		   struct lista *proximo; /* Dentro dessa lista esta sendo armazenada
+		   dados de uma lista com ponteiro. Entao atraves do dado ponteiro 
+		   sera armazenado dados de uma lista inteira, que sera a propria
+		   estrutura da lista */
 	};
 	
 	struct lista m1, m2, m3;
@@ -25,9 +28,7 @@ int main(){
 	
 	while(gancho != (struct lista *)0){
 		printf("%i\n", gancho->valor);
-		gancho = gancho -> proximo; /* o gancho atual recebera tudo que estiver
-		no endereco do proximo no atual, assim atualizando os novos valores 
-		dentro de valores e do proximo da lista atual */
+		gancho = gancho -> proximo; /*  */
 	}
 	
 	system("pause");
