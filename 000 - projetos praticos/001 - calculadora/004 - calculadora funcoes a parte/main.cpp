@@ -2,7 +2,29 @@
 #include<stdlib.h>
 #include<locale.h>
 #include "funcoes.cpp"
+/* Dentro desse codigo estou fazendo Modularização através de Arquivos de 
+Cabeçalho (Header Files).
 
+2. Arquivos de Cabeçalho (Header Files - .h)
+Quando você usa o #include, você está dizendo ao pré-processador do C: 
+"Pegue todo o texto deste arquivo e cole aqui exatamente onde está este 
+#include".
+Na prática profissional, não colocamos os protótipos diretamente no 
+arquivo principal. Nós os colocamos em um arquivo separado com a extensão 
+.h (header). Portanto, quando você faz #include "meuarquivo.h", você está 
+apenas incluindo os protótipos.
+
+3. Separação Interface / Implementação (ou Modularização)
+Esse é o nome do padrão de arquitetura que você está descrevendo. Ele 
+funciona assim:
+
+A Interface (Arquivo .h): Contém apenas as declarações (protótipos). É como se 
+fosse o "menu" de um restaurante, dizendo o que está disponível.
+A Implementação (Arquivo .c): Contém a lógica real, o código que faz as coisas 
+funcionarem (o corpo da função com {}).
+
+
+ */
 // --- AQUI VÃO AS DECLARAÇÕES (O que estaria no .h) ---
 int funcaoReceberValorPrimeiroNumeroOperacoes();
 int funcaoReceberValorSegundoNumeroOperacoes();
