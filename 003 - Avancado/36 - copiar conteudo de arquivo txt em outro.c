@@ -13,13 +13,13 @@ int main(){
 	
 	setlocale(LC_ALL, "portuguese");
 	FILE *arquivo1; 
-	arquivo1 = fopen("C:\\Users\\phili\\Documents\\estudo\\C\\AulasC\\003 - Avancado\\34-arquivoQueSeraCopiado.txt", "r"); 
+	arquivo1 = fopen("C:\\Users\\phili\\Documents\\estudo\\C\\AulasC\\003 - Avancado\\36-arquivoQueSeraCopiado.txt", "r"); 
 	
 	if (arquivo1 == NULL) {
 		printf("Nao foi possivel abrir o arquivo.");
 	}
 	FILE *arquivo2;
-	arquivo2 = fopen("C:\\Users\\phili\\Documents\\estudo\\C\\AulasC\\003 - Avancado\\34-arquivoGeradoComACopia.txt", "w"); 
+	arquivo2 = fopen("C:\\Users\\phili\\Documents\\estudo\\C\\AulasC\\003 - Avancado\\36-arquivoGeradoComACopia.txt", "w"); 
 	
 	
 	
