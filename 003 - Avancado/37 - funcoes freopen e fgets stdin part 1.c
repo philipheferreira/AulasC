@@ -14,7 +14,7 @@ int main() {
 	
 	/* Ate aqui em cima consigo criar um sistema de resposta em tempo real */
 	
-	freopen("C:/Users/phili/Documents/estudo/C/AulasC/003 - Avancado/30arquivoGeradoAulaManipulacaoArquivo.txt", "r", stdin); /* ainda nao finalizado */
+	freopen("C:/Users/phili/Documents/estudo/C/AulasC/003 - Avancado/37-documentoParaExemplo.txt", "r", stdin); /* ainda nao finalizado */
 	fgets(x, 100, stdin);
 	printf("%s", x);
 }
