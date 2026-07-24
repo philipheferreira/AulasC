@@ -11,7 +11,7 @@ int main(){
 	
 	setlocale(LC_ALL, "portuguese");
 	FILE *file; /* Criando um ponteiro file para gerar o arquivo txt */
-	file = fopen("C:\\Users\\phili\\Documents\\estudo\\C\\AulasC\\003 - Avancado\\34-strings.txt", "r");
+	file = fopen("C:/Users/phili/Documents/estudo/C/AulasC/003 - Avancado/34-strings.txt", "r");
 	
 	if(file == NULL){
 		printf("Arquivo nao pode ser aberto.\n\n");

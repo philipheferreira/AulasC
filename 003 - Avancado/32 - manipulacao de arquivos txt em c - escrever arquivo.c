@@ -12,7 +12,7 @@ int main(){
 	setlocale(LC_ALL, "portuguese");
 	
 	FILE *file; /* Criando um ponteiro file para gerar o arquivo txt */
-	file = fopen("C:\\Users\\phili\\Documents\\estudo\\C\\AulasC\\003 - Avancado\\30arquivoGeradoAulaManipulacaoArquivo.txt", "w"); /* ira criar um arquivo file a onde eu disser pra criar, e ira realizar
+	file = fopen("C:/Users/phili/Documents/estudo/C/AulasC/003 - Avancado/30arquivoGeradoAulaManipulacaoArquivo.txt", "w"); /* ira criar um arquivo file a onde eu disser pra criar, e ira realizar
 	a operacao de escrever como foi definido em w de write. */
 	
 	fprintf(file, "pao com mortadela."); /* Ira escrever dentro do arquivo criado.

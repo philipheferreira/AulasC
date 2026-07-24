@@ -11,7 +11,7 @@ int main(){
 	
 	setlocale(LC_ALL, "portuguese");
 	FILE *file; /* Criando um ponteiro file para gerar o arquivo txt */
-	file = fopen("C:\\Users\\phili\\Documents\\estudo\\C\\AulasC\\003 - Avancado\\35-stringsDeAppend.txt", "a"); /* Anexar, representado por a, ser a operacao de 
+	file = fopen("C:/Users/phili/Documents/estudo/C/AulasC/003 - Avancado/35-stringsDeAppend.txt", "a"); /* Anexar, representado por a, ser a operacao de 
 	criar caso nao exista, e caso exista e ja tenha algo adiciona mais informacao no que ja existe */
 	
 	if(file == NULL){
